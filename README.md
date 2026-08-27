@@ -127,9 +127,6 @@ r_{PM2.5}(t+1)=\beta_0+\sum_{j=1}^{7}\beta_j r_j(t)+\varepsilon(t)
 
 文书中可以将本项目概括为一次从“会运行模型”到“会判断模型”的学习经历。值得重点呈现的不是模型获得了很高的预测精度，而是我在发现模型整体显著但 R² 很低之后，进一步检查了变量相关性、残差分布和 PCA 降维结果，最终认识到统计工具的价值不仅在于给出数字，还在于帮助研究者识别证据的边界。
 
-可提炼为如下英文表述：
-
-> In an applied multivariate statistics project, I analyzed four years of hourly air-quality records from Beijing using R. I transformed the raw observations into daily change measures, built and diagnosed a one-day-ahead PM2.5 regression model, and used PCA to address correlated predictors. Although several effects were statistically significant, both the original and PCA-based models had limited explanatory power. This discrepancy taught me to distinguish statistical significance from practical predictability and to treat model limitations as substantive findings rather than inconvenient results.
 
 ## 文件说明
 
